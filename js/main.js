@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Price Optimization & Customer Clustering with Genetic Algorithms",
     desc: "Applied genetic algorithms for customer segmentation and price optimization, proposing a clustering-based framework to adapt pricing strategies for heterogeneous customer groups.",
-    img: "assets/project1.png",
+    img: "assets/proj1.png",
     repo: "https://github.com/elahehmood/Price-Optimization-Customer-Clustering-with-Genetic-Algorithms",
     readme: "https://github.com/elahehmood/Price-Optimization-Customer-Clustering-with-Genetic-Algorithms#readme",
     tech: "Genetic Algorithms, Python, Data Mining"
@@ -36,7 +36,7 @@ const projects = [
 document.addEventListener('DOMContentLoaded', () => {
   const navToggle = document.getElementById('nav-toggle');
   const nav = document.getElementById('nav');
-  navToggle.addEventListener('click', () => nav.classList.toggle('show'));
+  navToggle.addEventListener('click', () => nav.classList.toggle('active'));
 
   // populate projects
   const grid = document.getElementById('projects-grid');
@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
       if(target){
         e.preventDefault();
         target.scrollIntoView({behavior:'smooth', block:'start'});
-        if(nav.classList.contains('show')) nav.classList.remove('show');
+        if(nav.classList.contains('active')) nav.classList.remove('active');
       }
     });
   });
 
-  // contact form simple validation (no backend)
+  // contact form simple validation (demo only)
   const form = document.getElementById('contact-form');
   const sendBtn = document.getElementById('send-btn');
   const status = document.getElementById('send-status');
@@ -75,11 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const email = document.getElementById('email').value.trim();
     const message = document.getElementById('message').value.trim();
     if(!name || !email || !message){
-      status.textContent = 'Please fill in all fields.';
+      status.textContent = '⚠️ Please fill in all fields.';
       return;
     }
-    // Show a fake success message (since no backend)
-    status.textContent = 'Your message is ready (this is a local demo; to send messages you need a backend).';
+    status.textContent = '✅ Your message is ready (demo only; needs backend to send).';
     form.reset();
   });
 });
