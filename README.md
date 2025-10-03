@@ -12,5 +12,3 @@ This repository contains a professional personal portfolio built with plain HTML
 
 ## Run locally
 Open `index.html` in your browser.
-
-# elahehmood-portfolio
