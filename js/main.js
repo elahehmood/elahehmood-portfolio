@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Advanced Data Mining Models for Customer Behavior Analytics",
     desc: "Designed and evaluated advanced data mining models to predict and analyze customer behavior, with emphasis on segmentation and retention strategies.",
-    img: "assets/proj4.svg",
+    img: "assets/proj4.png",
     repo: "https://github.com/elahehmood/Advanced-Data-Mining-Models-for-Customer-Behavior-Analytics",
     readme: "https://github.com/elahehmood/Advanced-Data-Mining-Models-for-Customer-Behavior-Analytics#readme",
     tech: "Supervised/Unsupervised Learning"
