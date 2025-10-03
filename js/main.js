@@ -18,7 +18,7 @@ const projects = [
   {
     title: "WUSTL EHMS IoMT Security Analysis",
     desc: "Performed a security assessment of the WUSTL EHMS dataset focusing on Internet of Medical Things (IoMT) devices, identifying vulnerabilities and proposing resilience recommendations.",
-    img: "assets/proj3.svg",
+    img: "assets/proj3.jpg",
     repo: "https://github.com/elahehmood/WUSTL-EHMS-IoMT-Security-Analysis",
     readme: "https://github.com/elahehmood/WUSTL-EHMS-IoMT-Security-Analysis#readme",
     tech: "Cybersecurity, Risk Assessment"
