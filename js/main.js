@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Graph Clustering & Data Mining Analysis",
     desc: "Analyzed and compared graph clustering methods to detect communities in large-scale networked data.",
-    img: "assets/proj2.svg",
+    img: "assets/proj2.jpg",
     repo: "https://github.com/elahehmood/Graph-Clustering-Data-Mining-Analysis",
     readme: "https://github.com/elahehmood/Graph-Clustering-Data-Mining-Analysis#readme",
     tech: "Graph Theory, Community Detection"
