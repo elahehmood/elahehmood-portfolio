@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Price Optimization & Customer Clustering with Genetic Algorithms",
     desc: "Applied genetic algorithms for customer segmentation and price optimization, proposing a clustering-based framework to adapt pricing strategies for heterogeneous customer groups.",
-    img: "assets/proj1.png",
+    img: "assets/project1.png",
     repo: "https://github.com/elahehmood/Price-Optimization-Customer-Clustering-with-Genetic-Algorithms",
     readme: "https://github.com/elahehmood/Price-Optimization-Customer-Clustering-with-Genetic-Algorithms#readme",
     tech: "Genetic Algorithms, Python, Data Mining"
