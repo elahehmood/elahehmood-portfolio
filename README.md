@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio — Elahe Modarres
 
 This repository contains a professional personal portfolio built with plain HTML, CSS and JavaScript (no frameworks).
@@ -14,8 +13,4 @@ This repository contains a professional personal portfolio built with plain HTML
 ## Run locally
 Open `index.html` in your browser.
 
-## Publish to GitHub Pages
-Create a repo, push files, and enable Pages in Settings (branch: main, folder: root).
-=======
 # elahehmood-portfolio
->>>>>>> 810a6f16b4f1ff7894847ce5908cf290d12d7ef0
